@@ -26,7 +26,16 @@
             "resourceName": "apigusEast1testprodApiInduqainduany",
             "config": {}
           }
-        ]
+        ],
+        "testCases": {
+          "1f403b73-e237-40ff-b4c1-81f83f2ac3ed": {
+            "id": "1f403b73-e237-40ff-b4c1-81f83f2ac3ed",
+            "name": "Test event",
+            "functionId": "24662525-399c-4d11-8d2d-cf4232f1d111",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
       }
     },
     "openFiles": [
@@ -80,7 +89,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1585653268961
+    "lastSave": 1585653381391
   },
   "VCS_STATE": {
     "provider": "GitHub",
