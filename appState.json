@@ -50,7 +50,7 @@
           "selectedRegion": "us-east-1",
           "apiMode": 0,
           "apiName": "testprodApiIndu",
-          "endpointType": "EDGE",
+          "endpointType": "REGIONAL",
           "resourceMode": 0,
           "resourceName": "qa/indu",
           "resourcePath": "/qa/indu",
@@ -89,7 +89,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1585653381391
+    "lastSave": 1585653486987
   },
   "VCS_STATE": {
     "provider": "GitHub",
