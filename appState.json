@@ -1,0 +1,92 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "24662525-399c-4d11-8d2d-cf4232f1d111": {
+        "id": "24662525-399c-4d11-8d2d-cf4232f1d111",
+        "parent": null,
+        "name": "testprodresultIndu.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "testprodresultIndu.js",
+        "cursor": {
+          "lineNumber": 3,
+          "column": 54
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1testprodApiInduqainduany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "24662525-399c-4d11-8d2d-cf4232f1d111"
+    ],
+    "currentFileId": "24662525-399c-4d11-8d2d-cf4232f1d111",
+    "resources": {
+      "apigusEast1testprodApiInduqainduany": {
+        "name": "apigusEast1testprodApiInduqainduany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 0,
+          "apiName": "testprodApiIndu",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "qa/indu",
+          "resourcePath": "/qa/indu",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "test123",
+          "mode": 0
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "testprodresultIndu",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1585653268961
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "testprodresultindu",
+      "url": "https://github.com/Indunil1992/testprodresultindu"
+    }
+  }
+}
